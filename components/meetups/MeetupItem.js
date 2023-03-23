@@ -4,7 +4,7 @@ import Card from '../ui/Card';
 import classes from './MeetupItem.module.css';
 
 function MeetupItem(props) {
-  useRouter = useRouter();
+  const router = useRouter();
 
   function showDetailsHandler() {
     router.push('/' + props.id);
